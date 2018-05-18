@@ -24,6 +24,8 @@ for counter in range(1, 9):
 # ...
 # 'Now serving number 5.'
 
+for counter in range(1, 6):
+    print('Now serving number ' + str(counter) + '.')
 
 #3 3 is a Magic Number
 #Create a while loop that will generate a multiplication table for the number 3 and print out the following:
