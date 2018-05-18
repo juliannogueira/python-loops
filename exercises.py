@@ -25,6 +25,8 @@ for counter in range(1, 9):
 # ...
 # 'Now serving number 5.'
 
+print('\n')
+
 for counter in range(1, 6):
     print('Now serving number ' + str(counter) + '.')
 
@@ -40,6 +42,8 @@ for counter in range(1, 6):
 # ...
 # 9 x 3 = 27
 
+print('\n')
+
 for counter in range(1, 10):
     total = counter * 3
     print(str(counter) + ' x 3 = ' + str(total))
@@ -47,6 +51,8 @@ for counter in range(1, 10):
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
+
+print('\n') 
 
 cars = ['Jeep', 'Honda', 'Ford', 'Chevrolet', 'Mercedes']
 
@@ -56,6 +62,8 @@ for counter in range(0, len(cars)):
 
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
+
+print('\n')
 
 counter = 0
 while counter < len(cars):
@@ -72,6 +80,8 @@ while counter < len(cars):
 #The attack at 4 is Sambacry.
 #DO NOT use numbers in your string.
 
+print('\n')
+
 cyber_attacks = ['Wannacry', 'Petya', 'Locky', 'Krack Attack', 'Sambacry']
 for counter in range(0, len(cyber_attacks)):
     print('The attack at ' + str(counter) + ' is ' + cyber_attacks[counter] + '.')
@@ -79,6 +89,8 @@ for counter in range(0, len(cyber_attacks)):
 
 #7 Even
 # Declare a variable named even_list and assign it an empty list. Next, write a for loop that will place 25 even numbers starting from 0 into the even_list list. Print the even_list variable to see your results. 
+
+print('\n')
 
 even_list = []
 for counter in range(0, 25, 2):
@@ -92,6 +104,8 @@ print(even_list)
 # Create a function named add_up which takes a parameter num. In the code block inside the function, create a variable named sum and assign it a number value of 0. Next, create a for loop that will iterate through a list of numbers using the range function that will be determined by the num parameter and will sum up all the numbers in the list and store it to the sum variable. Print the sum variable to see your results.
 
 #i.e a number list of 10 will have a sum total of 45
+
+print('\n')
 
 def add_up(num):
     sum = 0
@@ -170,7 +184,33 @@ for counter in range(0, len(zip_codes)):
 # 14
 # Fizz Buzz
 
+print('\n')
+
+for counter in range(1, 101):
+    if counter % 5 == 0 and counter % 3 == 0:
+        print('Fizz Buzz')
+    elif counter % 5 == 0:
+        print('Buzz')
+    elif counter % 3 == 0:
+        print('Fizz')
+    else:
+        print(counter)
+
 
 #13 Fizz Buzz Again 
 #Do the same thing again using a while loop.
 
+print('\n')
+
+counter = 0
+while counter < 101:
+    for counter in range(1, 101):
+        if counter % 5 == 0 and counter % 3 == 0:
+            print('Fizz Buzz')
+        elif counter % 5 == 0:
+            print('Buzz')
+        elif counter % 3 == 0:
+            print('Fizz')
+        else:
+            print(counter)
+        counter = counter + 1
