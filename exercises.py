@@ -53,7 +53,11 @@ for counter in range(0, len(cars)):
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
 
-    
+counter = 0
+while counter < len(cars):
+    print(cars[counter])
+    counter = counter + 1
+
 #6  No More Tears
 # Create a for loop that will iterate through the cyber attacks list and prints the following: 
 #The attack at 0 is Wannacry.
