@@ -12,6 +12,8 @@
 # ...
 ##'Number 8, your order is ready.'
 
+for counter in range(1, 9):
+    print('Number ' + str(counter) + ', your order is ready. I hope you are hungry.')
 
 #2 Now Serving
 #Create a while loop that will print the following message:
