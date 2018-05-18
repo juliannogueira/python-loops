@@ -41,11 +41,14 @@ for counter in range(1, 6):
 for counter in range(1, 10):
     total = counter * 3
     print(str(counter) + ' x 3 = ' + str(total))
-    
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
 
+cars = ['Jeep', 'Honda', 'Ford', 'Chevrolet', 'Mercedes']
+
+for counter in range(0, len(cars)):
+    print('My next car will be a ' + cars[counter] + '.')
 
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
