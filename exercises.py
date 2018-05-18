@@ -102,6 +102,24 @@ add_up([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 rappers = ['Tupac', 'Biggie', 'Ice Cube', 'Nas', 'Snoop', '50 Cent', 'Nate Dogg', 'Wu Tang Clan', 'Kendrick Lamar']
 
+weessst_side = []
+east_side = []
+
+for odd in range(0, len(rappers), 2):
+    weessst_side = weessst_side + [rappers[odd]]
+
+for even in range(1, len(rappers), 2):
+    east_side = east_side + [rappers[even]]
+
+print('\nHere is the weessst side:')
+for odd in weessst_side:
+    print(odd)
+
+print('\nHere is the east side:')
+for even in east_side:
+    print(even)
+    
+
 #10 Breaking Up is Easy
 #Create a for loop that will iterate through 10 even numbers (starting from 0) and stop printing at 10.
 
