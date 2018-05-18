@@ -15,6 +15,7 @@
 for counter in range(1, 9):
     print('Number ' + str(counter) + ', your order is ready. I hope you are hungry.')
 
+
 #2 Now Serving
 #Create a while loop that will print the following message:
 #'Now serving number 1.'
@@ -26,6 +27,7 @@ for counter in range(1, 9):
 
 for counter in range(1, 6):
     print('Now serving number ' + str(counter) + '.')
+
 
 #3 3 is a Magic Number
 #Create a while loop that will generate a multiplication table for the number 3 and print out the following:
@@ -42,6 +44,7 @@ for counter in range(1, 10):
     total = counter * 3
     print(str(counter) + ' x 3 = ' + str(total))
 
+
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
 
@@ -50,6 +53,7 @@ cars = ['Jeep', 'Honda', 'Ford', 'Chevrolet', 'Mercedes']
 for counter in range(0, len(cars)):
     print('My next car will be a ' + cars[counter] + '.')
 
+
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
 
@@ -57,6 +61,7 @@ counter = 0
 while counter < len(cars):
     print(cars[counter])
     counter = counter + 1
+
 
 #6  No More Tears
 # Create a for loop that will iterate through the cyber attacks list and prints the following: 
@@ -71,6 +76,7 @@ cyber_attacks = ['Wannacry', 'Petya', 'Locky', 'Krack Attack', 'Sambacry']
 for counter in range(0, len(cyber_attacks)):
     print('The attack at ' + str(counter) + ' is ' + cyber_attacks[counter] + '.')
 
+
 #7 Even
 # Declare a variable named even_list and assign it an empty list. Next, write a for loop that will place 25 even numbers starting from 0 into the even_list list. Print the even_list variable to see your results. 
 
@@ -80,6 +86,7 @@ for counter in range(0, 25, 2):
     even_list += counter
 
 print(even_list)
+
 
 #8 Sum Up
 # Create a function named add_up which takes a parameter num. In the code block inside the function, create a variable named sum and assign it a number value of 0. Next, create a for loop that will iterate through a list of numbers using the range function that will be determined by the num parameter and will sum up all the numbers in the list and store it to the sum variable. Print the sum variable to see your results.
@@ -123,11 +130,24 @@ for even in east_side:
 #10 Breaking Up is Easy
 #Create a for loop that will iterate through 10 even numbers (starting from 0) and stop printing at 10.
 
+print('\n')
+for counter in range(0, 19, 2):
+    print(counter)
+    if counter == 10:
+        break
+
 
 #11 Zip Codes
 #Create a for loop that will iterate through the zip codes list below and print all the zip codes except for 96822.
 
 zip_codes = [90001,90002,90003,90004,90005,96822,90007,90008,90010,90011,90012,90013,90014,90015, 90016,90017,90018,90019]
+
+print('\n')
+
+for counter in range(0, len(zip_codes)):
+    if zip_codes[counter] == 96822:
+        continue
+    print(zip_codes[counter])
 
 
 #12 Fizz Buzz!
