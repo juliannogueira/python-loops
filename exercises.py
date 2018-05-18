@@ -86,6 +86,14 @@ print(even_list)
 
 #i.e a number list of 10 will have a sum total of 45
 
+def add_up(num):
+    sum = 0
+    for counter in range(0, len(num)):
+        sum = sum + num[counter]
+    print(sum)
+
+add_up([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
 
 #9 East Coast vs West Coast - A Hip Hop Rivalry
 #The East Coast - West Coast hip hop rivalry was a feud between artist and fans of the East Coast hip hop and West Coast hip hop scenes from the mid to last 1990s. 
