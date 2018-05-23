@@ -48,6 +48,16 @@ for counter in range(1, 10):
     total = counter * 3
     print(str(counter) + ' x 3 = ' + str(total))
 
+print('\n')
+
+i = 0
+
+while i < 9:
+    i = i + 1
+    print(str(i) + ' x 3 = ' + str(i * 3))
+
+
+
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
